@@ -19,6 +19,17 @@ The dataset used in this project is from [The Movie Dataset (TMDb)](https://www.
 - **Size**: ~26,000 movies
 - **Columns**: `id`, `title`, `overview`, `genres`, `keywords`, `cast`, `crew`
 
+## Tech Stack
+
+- **Python**: Core programming language for building the recommendation logic.
+- **Flask**: Web framework used to create the user interface.
+- **Pandas**: Library used for data manipulation and analysis.
+- **Scikit-learn**: Machine learning library used for implementing **TF-IDF Vectorization** and **Cosine Similarity**.
+- **Jupyter Notebook**: Used for exploratory data analysis and development.
+- **Heroku**: Platform used for deploying the application.
+- **HTML/CSS**: For building the frontend design of the web application.
+- **TMDB Dataset**: Movie dataset source used for generating recommendations.
+
 ## Requirements
 
 - Python 3.7+
